@@ -14,7 +14,7 @@ if [[ ! -e $PRE_INSTALL_DONE ]]; then
     echo "Done."
   done
   cd ..
-  
+
   touch $PRE_INSTALL_DONE
   echo "PLEASE REBOOT YOUR COMPUTER AND EXECUTE THIS SCRIPT AGAIN AFTERWARDS!"
   exit
@@ -44,4 +44,7 @@ else
     done
     cd ..
   fi
+
+  echo 'YOU ARE DONE!'
+  echo 'PLEASE REBOOT YOUR COMPUTER AGAIN!'
 fi

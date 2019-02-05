@@ -4,4 +4,4 @@ echo "======================================================================"
 echo "install vs code"
 echo "======================================================================"
 
-sudo pacman -S --noconfirm --needed code
+sudo pacman --verbose -S --noconfirm --needed code

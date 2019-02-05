@@ -5,6 +5,10 @@ echo "install webmin"
 echo "======================================================================"
 
 # install webmin
-yay -S --noconfirm --needed webmin
+yay --verbose -S --noconfirm --needed webmin
+
+echo "Starting webmin..."
 sudo systemctl start webmin.service
+
+echo "Enabling webmin..."
 sudo systemctl enable webmin.service

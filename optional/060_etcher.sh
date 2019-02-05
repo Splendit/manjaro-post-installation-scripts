@@ -5,4 +5,4 @@ echo "install etcher"
 echo "======================================================================"
 
 # install etcher
-yay -S --noconfirm --needed etcher
+yay --verbose -S --noconfirm --needed etcher

@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo "======================================================================"
-echo "install peek"
+echo "install kazam"
 echo "======================================================================"
 
 # install kazam
-yay -S --noconfirm --needed kazam
+yay --verbose -S --noconfirm --needed kazam

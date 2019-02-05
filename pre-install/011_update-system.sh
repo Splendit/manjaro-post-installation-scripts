@@ -5,4 +5,4 @@ echo "update system"
 echo "======================================================================"
 
 # update system
-sudo pacman -Syyuu --noconfirm --needed
+sudo pacman --verbose -Syyuu --noconfirm --needed

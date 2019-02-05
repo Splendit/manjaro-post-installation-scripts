@@ -5,4 +5,4 @@ echo "install telegram"
 echo "======================================================================"
 
 # install telegram
-sudo pacman -S --noconfirm --needed telegram-desktop
+sudo pacman --verbose -S --noconfirm --needed telegram-desktop

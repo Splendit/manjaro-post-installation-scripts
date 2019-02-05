@@ -10,7 +10,11 @@ main() {
   ECLIPSE_INSTALL_DIR=`expandPath $(grep ECLIPSE_INSTALL_DIR $CONF_FILE | cut -d'=' -f2)`
   ECLIPSE_MIRROR=$(grep ECLIPSE_MIRROR $CONF_FILE | cut -d'=' -f2)
   ECLIPSE_VERSIONS=($(grep ECLIPSE_VERSIONS $CONF_FILE | cut -d'=' -f2))
-  
+
+  echo "ECLIPSE_INSTALL_DIR=$ECLIPSE_INSTALL_DIR"
+  echo "ECLIPSE_MIRROR=$ECLIPSE_MIRROR"
+  echo "ECLIPSE_VERSIONS=$ECLIPSE_VERSIONS"
+
   # download eclipse
   # mirror and install dir as param
   mkdir -p $ECLIPSE_INSTALL_DIR

@@ -5,4 +5,4 @@ echo "install gitkraken"
 echo "======================================================================"
 
 # install gitkraken
-yay -S --noconfirm --needed gitkraken
+yay --verbose -S --noconfirm --needed gitkraken

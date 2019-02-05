@@ -10,4 +10,4 @@ sudo sed -i".old" "s/#Color/Color/g" /etc/pacman.conf
 
 # configure fastest mirrors
 echo "Searching fastest pacman mirrors..."
-#sudo pacman-mirrors -f
+sudo pacman-mirrors -f
